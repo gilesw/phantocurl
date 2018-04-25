@@ -2,7 +2,7 @@
 #
 # Quick bashscript to run phantomjs and detect any http errors with local resources
 # TODO: handle different phantomjs version syntax changes with heredoc
-
+#       port confess.js timing over ( confess.js not usable for error reporting due to nested phantom.exit not having effect )
 #
 # Functions
 #

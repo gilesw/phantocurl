@@ -167,6 +167,7 @@ while : ;do
     -j | --js) jsfile=$2 ; shift 2 ;;
     -i | --ignore) ignore_args="--ignore-ssl-errors=true --ssl-protocol=any" ; shift 1 ;;
     -d | --debug) debug_args='--debug=true' shift 1 ;;
+    -h | --help | -\?) usage ; exit 0 ;;
     *) break ;;
   esac
 done
